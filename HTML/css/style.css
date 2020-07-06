@@ -1,0 +1,109 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	background-image: url(pics/flower.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.8s ease;
+
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #F70D3C;
+}
+
+ul li.active a {
+	background-color: #fff;
+	color: #F70D3C;
+}
+
+.flex_container{
+	
+	position: fixed;
+	top: 40%;
+	left: 30%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-content: center;
+}
+/*
+.title {
+	position: fixed;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+*/
+.title h1{
+	color: #FFF;
+	font-size: 6vw;
+}
+
+.title h1::first-letter {
+	font-size: 120%;
+	color: #F70D3C;
+}
+
+/*
+.bar {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+*/
+
+.bar ul li a{
+	text-decoration: none;
+	font-size: 1.5vw;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.8s ease;
+}
+
+.bar ul li.active a{
+	background-color: #fff;
+	color: #F70D3C;
+}
+
+/*
+.summary {
+	position: fixed;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+*/
+
+.summary h3{
+	color: #F70D3C;
+	font-size: 1.5vw;
+	color: #F70D3C;
+	background-color: #fff;
+}
+
+
